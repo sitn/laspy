@@ -1,7 +1,6 @@
 from setuptools import setup
 import shutil
 
-import laspy
 
 # Get text from README.txt
 try:
@@ -29,7 +28,7 @@ except:
 
     
 setup(name          = 'laspy',
-      version       = laspy.__version__,
+      version       = '1.2.6',
       description   = 'Native Python ASPRS LAS read/write library',
       license       = 'BSD',
       keywords      = 'gis lidar las',
